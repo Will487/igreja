@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+.top{
+    background-color:   white;
+    width: 1280px;
+    
+}
+
+.container-top{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+    padding: 10px;
+}
+
+.number{
+    width: 50%;
+    display: flex;
+    color: #ffff;
+    align-items: center;
+    padding-left: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: inherit;       
+
+}
+
+.sociais{
+    width: 50%;
+    display: flex;
+    text-align: right; 
+    align-items: right;
+    align-content: right;
+    justify-content: right;
+}
+
+.sociais p{
+    color: white;
+    margin-right: 15px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.sociais button{
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    margin-right: 15px;
+    cursor: pointer;
+    
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.logo{
+    scale: 1.8;
+    width: 30%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo img{
+    width: 100px;
+    cursor: pointer;
+
+}
+
+.menu{
+
+    width: 70%;
+    align-items: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu nav a{
+    color: gray;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 18px;
+    position: relative;
+    
+}
+
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #edc500, #edc500);
+    position: absolute;
+    top: 25px;
+    left: 0;
+    transition: width 0.2s;
+}
+
+.menu nav a:hover::after{
+    width: 25px;
+
+}
+
+.banner{
+    height: 850px;
+    background-image: url(image/image_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
